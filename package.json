@@ -1,0 +1,29 @@
+{
+  "name": "odin-restaurantpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrpng/odin-restaurantpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrpng/odin-restaurantpage/issues"
+  },
+  "homepage": "https://github.com/chrpng/odin-restaurantpage#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^5.0.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
